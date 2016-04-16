@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ResultTextTheme">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">30dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="FunctionTheme" parent="ButtonStyle">
+        <item name="android:background">@color/function_color</item>
+    </style>
+
+    <style name="NumberTheme" parent="ButtonStyle">
+        <item name="android:background">@color/number_color</item>
+    </style>
+
+    <style name="EqualsTheme" parent="ButtonStyle">
+        <item name="android:background">@color/equals_color</item>
+    </style>
+</resources>
